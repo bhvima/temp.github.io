@@ -1,0 +1,20 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Good Times';
+    src: url(../font/GoodTimes.otf);
+    }
+
+@font-face {
+    font-family: 'DIN Next LT Pro';
+    src: url(../font/DINNextLTPro.ttf);
+    }
+
+$headings-font-family: 'Good Times';
+$font-family-base: 'DIN Next LT Pro';
+
+/* any style customization must be before the bootstrap import */
+@import "bootstrap/bootstrap";
